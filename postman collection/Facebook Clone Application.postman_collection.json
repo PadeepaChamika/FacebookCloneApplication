@@ -34,7 +34,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstName\":\"Prageeth\",\n    \"surname\":\"Fernando\",\n    \"gender\":\"male\",\n    \"dateOfBirth\":\"1999-08-07\",\n    \"password\":\"123\",\n    \"phoneNumber\":\"0765401908\",\n    \"email\":\"prageethmilan99@gmail.com\"\n}",
+							"raw": "{\n    \"firstName\":\"Padeepa\",\n    \"surname\":\"Kavithilaka\",\n    \"gender\":\"male\",\n    \"dateOfBirth\":\"1998-06-05\",\n    \"password\":\"123\",\n    \"phoneNumber\":\"0774640621\",\n    \"email\":\"padeepachamika12@gmail.com\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -62,7 +62,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstName\":\"Kamal\",\n    \"surname\":\"Mayakaduwage\",\n    \"gender\":\"male\",\n    \"dateOfBirth\":\"1999-08-07\",\n    \"password\":\"12345\",\n    \"phoneNumber\":\"0765401908\",\n    \"email\":\"prageethmilan99@gmail.com\"\n}",
+							"raw": "{\n    \"firstName\":\"Kamal\",\n    \"surname\":\"Silva\",\n    \"gender\":\"male\",\n    \"dateOfBirth\":\"1980-04-05\",\n    \"password\":\"12345\",\n    \"phoneNumber\":\"07654461908\",\n    \"email\":\"kamal12@gmail,com\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -135,7 +135,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/users/prageethmilan99@gmail.com/12345",
+							"raw": "http://localhost:4000/users/kamal12@gmail,com/12345",
 							"protocol": "http",
 							"host": [
 								"localhost"
