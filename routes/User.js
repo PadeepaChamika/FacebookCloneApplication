@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
     } catch (e) {
         res.send("Err : " + e)
     }
-})
+});
 
 router.post('/', async (req, res) => {
     const user = new User({
@@ -31,7 +31,7 @@ router.post('/', async (req, res) => {
     } catch (e) {
         res.send("Err : " + e)
     }
-})
+});
 
 router.put('/:id', async (req, res) => {
     try {
@@ -51,7 +51,7 @@ router.put('/:id', async (req, res) => {
     } catch (e) {
         res.send("Err : " + e)
     }
-})
+});
 
 router.delete('/', async (req, res) => {
     try {
@@ -60,7 +60,7 @@ router.delete('/', async (req, res) => {
     } catch (e) {
         res.send("Err : " + e)
     }
-})
+});
 
 router.get('/:id', async (req, res) => {
     try {
@@ -69,7 +69,7 @@ router.get('/:id', async (req, res) => {
     } catch (e) {
         res.send("Err : " + e)
     }
-})
+});
 
 router.get('/:email/:password', async (req, res) => {
     try {
@@ -82,7 +82,7 @@ router.get('/:email/:password', async (req, res) => {
     } catch (e) {
         console.log("Err : " + e)
     }
-})
+});
 
 
 module.exports = router

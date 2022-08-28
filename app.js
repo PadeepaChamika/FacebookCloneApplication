@@ -14,7 +14,7 @@ const con = mongoose.connection
 
 con.on('open', () => {
     console.log("MongoDB Connected")
-})
+});
 
 app.use(express.json())
 
@@ -23,4 +23,4 @@ app.use('/posts', post)
 
 app.listen(port, () => {
     console.log(`app starting on ${port}`)
-})
+});
